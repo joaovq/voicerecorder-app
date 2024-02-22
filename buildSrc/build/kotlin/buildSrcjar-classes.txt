@@ -1,0 +1,1 @@
+D:\Android Projects\WorkProjects\VoiceRecorder\buildSrc\build\classes\kotlin\main\AndroidKt.class;D:\Android Projects\WorkProjects\VoiceRecorder\buildSrc\build\classes\kotlin\main\DependencyHandlerExtKt.class;D:\Android Projects\WorkProjects\VoiceRecorder\buildSrc\build\classes\kotlin\main\Versions.class
