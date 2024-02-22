@@ -1,8 +1,9 @@
 import org.gradle.kotlin.dsl.DependencyHandlerScope
 
-fun DependencyHandlerScope.android() {
+fun DependencyHandlerScope.android(isNeedSplashScreen: Boolean = true) {
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    if(isNeedSplashScreen) implementation("androidx.core:core-splashscreen:1.0.1")
 }
 
 fun DependencyHandlerScope.compose(isNeedNavigation: Boolean = true) {
