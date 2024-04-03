@@ -2,5 +2,7 @@
 <resources>
     <style name="App.Starting.Theme" parent="Theme.SplashScreen">
         <item name="postSplashScreenTheme">@style/Theme.VoiceRecorder</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
     </style>
 </resources>

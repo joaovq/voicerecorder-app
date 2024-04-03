@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">VoiceRecorder</string>
+    <string name="app_name">Voice Recorder</string>
+    <string name="home_title_tab_bar">Recorder</string>
+    <string name="home_settings_icon_content_description">Settings</string>
+    <string name="home_fab_content_description">Record audio</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_title_delete_audio">Delete audio?</string>
+    <string name="remove_audio">Remove audio</string>
+    <string name="share_icon_content_description">Share audio</string>
+    <string name="no_audios_found">No audios found</string>
+    <string name="audio_track_icon_content_description">Audio</string>
+    <string name="records_not_found">Records not found</string>
+    <string name="placeholder_save_file">Put here file name</string>
+    <string name="delete">Delete</string>
+    <string name="text_button_save_record">Save record</string>
 </resources>

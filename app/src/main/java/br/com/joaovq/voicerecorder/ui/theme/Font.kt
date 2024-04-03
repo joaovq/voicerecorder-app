@@ -10,9 +10,15 @@ val fontProvider = GoogleFont.Provider(
     providerPackage = "com.google.android.gms",
     certificates = R.array.com_google_android_gms_fonts_certs
 )
-val fontName = GoogleFont("Inter")
+val inter = GoogleFont("Inter")
+val oswald = GoogleFont("Oswald")
 
 val FontFamily.Companion.Inter: FontFamily
     get() = FontFamily(
-        Font(googleFont = fontName, fontProvider = fontProvider)
+        Font(googleFont = inter, fontProvider = fontProvider)
+    )
+
+val FontFamily.Companion.Oswald: FontFamily
+    get() = FontFamily(
+        Font(googleFont = oswald, fontProvider = fontProvider)
     )

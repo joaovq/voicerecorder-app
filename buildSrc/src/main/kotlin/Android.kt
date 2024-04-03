@@ -3,7 +3,12 @@ import org.gradle.kotlin.dsl.DependencyHandlerScope
 fun DependencyHandlerScope.android(isNeedSplashScreen: Boolean = true) {
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
-    if(isNeedSplashScreen) implementation("androidx.core:core-splashscreen:1.0.1")
+    if (isNeedSplashScreen) implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("com.jakewharton.timber:timber:5.0.1")
+}
+
+fun DependencyHandlerScope.datastore() {
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 }
 
 fun DependencyHandlerScope.compose(isNeedNavigation: Boolean = true) {
@@ -31,7 +36,6 @@ fun DependencyHandlerScope.test() {
 }
 
 
-
 fun DependencyHandlerScope.room() {
     implementation("androidx.room:room-runtime:${Versions.roomVersion}")
     annotationProcessor("androidx.room:room-compiler:${Versions.roomVersion}")
@@ -43,4 +47,8 @@ fun DependencyHandlerScope.hilt() {
     implementation("com.google.dagger:hilt-android:${Versions.hiltVersion}")
     kapt("com.google.dagger:hilt-android-compiler:${Versions.hiltVersion}")
     implementation("androidx.hilt:hilt-navigation-compose:${Versions.hiltComposeVersion}")
+}
+
+fun DependencyHandlerScope.adMob() {
+    implementation("com.google.android.gms:play-services-ads:22.6.0")
 }

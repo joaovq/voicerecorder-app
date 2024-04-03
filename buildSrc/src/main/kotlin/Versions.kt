@@ -9,6 +9,6 @@ object Versions {
 
     const val roomVersion = "2.6.1"
 
-    const val hiltVersion = "2.44"
+    const val hiltVersion = "2.51"
     const val hiltComposeVersion = "1.1.0"
 }

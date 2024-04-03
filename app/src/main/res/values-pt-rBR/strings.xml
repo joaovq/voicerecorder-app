@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Recorder</string>
+    <string name="home_title_tab_bar">Gravador</string>
+    <string name="home_settings_icon_content_description">Configurações</string>
+    <string name="home_fab_content_description">Gravar áudio</string>
+    <string name="search">Pesquisar</string>
+    <string name="share">Compartilhar</string>
+    <string name="share_icon_content_description">Compartilhar áudio</string>
+    <string name="remove_audio">Remova o áudio</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_title_delete_audio">Deseja realmente deletar o áudio?</string>
+    <string name="no_audios_found">Nenhum audio foi encontrado</string>
+    <string name="audio_track_icon_content_description">Áudio</string>
+</resources>
